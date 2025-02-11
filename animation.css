@@ -1,0 +1,23 @@
+.rotateIcon {
+    display: inline-block;
+    animation: rotateIcon2 25s linear infinite;
+}
+
+@keyframes rotateIcon1 {
+    from {
+        transform: rotateY(0deg);
+    }
+    to {
+        transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotateIcon2 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+

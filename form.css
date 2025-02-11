@@ -1,0 +1,56 @@
+:root {
+    /* Background */
+    --background-color: #001932;
+    --text-color: #fff;
+    --second-color: #003B64;
+    --third-color: #00639B;
+    --decor-color: #D85C27;
+    --four-color: #66FCF1;
+    --five-color: #5AB9EA;
+    --six-color: #00DDF9;
+    --seven-color: #a466e1;
+    --grid-color: #ec0909;
+    /* Avatar */
+    --height-avatar: 300px;
+    --weight-avatar: 300px;
+    /* Font */
+    --header-text-size: 30px;
+    /* width skill */
+    --weight-skill: 941px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clearPadding {
+    padding: 0;
+}
+
+.clearMargin {
+    margin: 0;
+}
+
+.header_content {
+    background: linear-gradient(to right, #460982, #992d71); 
+    color: var(--text-color);
+    padding: 20px;
+    font-size: 40px;
+    margin: 0 -20px;
+    opacity: 0.89;
+    text-align: center;
+}
+
+.col_3 {
+    width: 33.33%;
+}
+
+.col_10 {
+    width: 80%;
+}
+
+.frame_page {
+    padding: 100px 0;
+}
